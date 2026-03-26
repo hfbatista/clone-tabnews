@@ -1,0 +1,25 @@
+{
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "description": "Um projeto de ponta a ponta usando como base o curso.dev",
+  "homepage": "https://github.com/hfbatista/clone-tabnews#readme",
+  "bugs": {
+    "url": "https://github.com/hfbatista/clone-tabnews/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hfbatista/clone-tabnews.git"
+  },
+  "license": "MIT",
+  "author": "Henrique F. Batista",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
