@@ -1,6 +1,9 @@
 function Home() {
-  return console.log(
-    "gatinha, voce é incrível e eu te amo, Se você me ama manda uma risadinha!!!",
+  return (
+    <h1>
+      "gatinha, voce é incrível e eu te amo, Se você me ama manda uma
+      risadinha!!!",
+    </h1>
   );
 }
 
