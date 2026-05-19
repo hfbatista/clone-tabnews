@@ -10,7 +10,7 @@ async function status(request, response) {
   const dbMaxConnectionsValue = dbMaxConnectionsResult.rows[0].max_connections;
 
   const dbOpenedConnectionsResult = await database.query(
-    "SELECT count(*)::integer FROM pg_stat_activity WHERE datname = 'local_db';",
+    "SELECT count(*)::int FROM pg_stat_activity WHERE datname = 'local_db';",
   );
   const dbOpenedConnectionsValue = dbOpenedConnectionsResult.rows[0].count;
 
