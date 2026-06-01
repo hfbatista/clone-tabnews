@@ -10,5 +10,4 @@ test("GET to /api/v1/status should return status code 200", async () => {
 
   const pasedUpdatedAt = new Date(responseBody.updated_at).toISOString();
   expect(responseBody.updated_at).toEqual(pasedUpdatedAt);
-  console.log(responseBody);
 });
